@@ -1,0 +1,142 @@
+[ Teste para mAP50]----------------------------- 
+            Df Sum Sq Mean Sq F value     Pr(>F)    
+dados$ml     4 1.0542  0.2636   12.61 0.00000058 ***
+Residuals   45 0.9405  0.0209                       
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = dados$mAP50 ~ dados$ml)
+
+$`dados$ml`
+                     diff         lwr        upr     p adj
+2_Fovea-1_SABL    0.01207 -0.17164061  0.1957806 0.9997176
+3_DETR-1_SABL     0.31371  0.12999939  0.4974206 0.0001412
+4_Faster-1_SABL   0.27436  0.09064939  0.4580706 0.0009845
+5_ATSS-1_SABL    -0.01440 -0.19811061  0.1693106 0.9994322
+3_DETR-2_Fovea    0.30164  0.11792939  0.4853506 0.0002587
+4_Faster-2_Fovea  0.26229  0.07857939  0.4460006 0.0017481
+5_ATSS-2_Fovea   -0.02647 -0.21018061  0.1572406 0.9938900
+4_Faster-3_DETR  -0.03935 -0.22306061  0.1443606 0.9730054
+5_ATSS-3_DETR    -0.32811 -0.51182061 -0.1443994 0.0000679
+5_ATSS-4_Faster  -0.28876 -0.47247061 -0.1050494 0.0004892
+
+[ Teste para mAP75]----------------------------- 
+            Df Sum Sq Mean Sq F value     Pr(>F)    
+dados$ml     4 0.5392 0.13480   10.33 0.00000506 ***
+Residuals   45 0.5870 0.01305                       
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = dados$mAP75 ~ dados$ml)
+
+$`dados$ml`
+                     diff         lwr         upr     p adj
+2_Fovea-1_SABL   -0.00373 -0.14886798  0.14140798 0.9999933
+3_DETR-1_SABL     0.22052  0.07538202  0.36565798 0.0007824
+4_Faster-1_SABL   0.18883  0.04369202  0.33396798 0.0050973
+5_ATSS-1_SABL    -0.01453 -0.15966798  0.13060798 0.9985127
+3_DETR-2_Fovea    0.22425  0.07911202  0.36938798 0.0006220
+4_Faster-2_Fovea  0.19256  0.04742202  0.33769798 0.0041204
+5_ATSS-2_Fovea   -0.01080 -0.15593798  0.13433798 0.9995377
+4_Faster-3_DETR  -0.03169 -0.17682798  0.11344798 0.9710582
+5_ATSS-3_DETR    -0.23505 -0.38018798 -0.08991202 0.0003176
+5_ATSS-4_Faster  -0.20336 -0.34849798 -0.05822202 0.0021975
+
+[ Teste para mAP]----------------------------- 
+            Df Sum Sq Mean Sq F value    Pr(>F)    
+dados$ml     4 0.4337  0.1084   10.33 0.0000051 ***
+Residuals   45 0.4726  0.0105                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = dados$mAP ~ dados$ml)
+
+$`dados$ml`
+                     diff         lwr         upr     p adj
+2_Fovea-1_SABL   -0.00120 -0.13141982  0.12901982 0.9999999
+3_DETR-1_SABL     0.20033  0.07011018  0.33054982 0.0006604
+4_Faster-1_SABL   0.17068  0.04046018  0.30089982 0.0047065
+5_ATSS-1_SABL    -0.00939 -0.13960982  0.12082982 0.9995917
+3_DETR-2_Fovea    0.20153  0.07131018  0.33174982 0.0006081
+4_Faster-2_Fovea  0.17188  0.04166018  0.30209982 0.0043606
+5_ATSS-2_Fovea   -0.00819 -0.13840982  0.12202982 0.9997625
+4_Faster-3_DETR  -0.02965 -0.15986982  0.10056982 0.9663314
+5_ATSS-3_DETR    -0.20972 -0.33993982 -0.07950018 0.0003446
+5_ATSS-4_Faster  -0.18007 -0.31028982 -0.04985018 0.0025699
+
+[ Teste para precision]----------------------------- 
+            Df Sum Sq Mean Sq F value Pr(>F)
+dados$ml     4  0.541 0.13529    1.83   0.14
+Residuals   45  3.327 0.07393               
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = dados$precision ~ dados$ml)
+
+$`dados$ml`
+                    diff        lwr        upr     p adj
+2_Fovea-1_SABL    0.1470 -0.1985155 0.49251548 0.7462601
+3_DETR-1_SABL     0.1830 -0.1625155 0.52851548 0.5647270
+4_Faster-1_SABL   0.1076 -0.2379155 0.45311548 0.9009973
+5_ATSS-1_SABL    -0.1007 -0.4462155 0.24481548 0.9204953
+3_DETR-2_Fovea    0.0360 -0.3095155 0.38151548 0.9982609
+4_Faster-2_Fovea -0.0394 -0.3849155 0.30611548 0.9975266
+5_ATSS-2_Fovea   -0.2477 -0.5932155 0.09781548 0.2654801
+4_Faster-3_DETR  -0.0754 -0.4209155 0.27011548 0.9711155
+5_ATSS-3_DETR    -0.2837 -0.6292155 0.06181548 0.1534402
+5_ATSS-4_Faster  -0.2083 -0.5538155 0.13721548 0.4365057
+
+[ Teste para recall]----------------------------- 
+            Df Sum Sq Mean Sq F value             Pr(>F)    
+dados$ml     4 1.9342  0.4835   39.36 0.0000000000000373 ***
+Residuals   45 0.5528  0.0123                               
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = dados$recall ~ dados$ml)
+
+$`dados$ml`
+                    diff         lwr           upr     p adj
+2_Fovea-1_SABL    0.0057 -0.13514125  0.1465412483 0.9999589
+3_DETR-1_SABL     0.3163  0.17545875  0.4571412483 0.0000008
+4_Faster-1_SABL   0.3707  0.22985875  0.5115412483 0.0000000
+5_ATSS-1_SABL    -0.1348 -0.27564125  0.0060412483 0.0666559
+3_DETR-2_Fovea    0.3106  0.16975875  0.4514412483 0.0000012
+4_Faster-2_Fovea  0.3650  0.22415875  0.5058412483 0.0000000
+5_ATSS-2_Fovea   -0.1405 -0.28134125  0.0003412483 0.0508334
+4_Faster-3_DETR   0.0544 -0.08644125  0.1952412483 0.8068770
+5_ATSS-3_DETR    -0.4511 -0.59194125 -0.3102587517 0.0000000
+5_ATSS-4_Faster  -0.5055 -0.64634125 -0.3646587517 0.0000000
+
+[ Teste para fscore]----------------------------- 
+            Df Sum Sq Mean Sq F value        Pr(>F)    
+dados$ml     4  1.825  0.4562   20.23 0.00000000136 ***
+Residuals   45  1.015  0.0225                          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = dados$fscore ~ dados$ml)
+
+$`dados$ml`
+                    diff         lwr           upr     p adj
+2_Fovea-1_SABL    0.0261 -0.16471656  0.2169165617 0.9949967
+3_DETR-1_SABL     0.3161  0.12528344  0.5069165617 0.0002262
+4_Faster-1_SABL   0.3237  0.13288344  0.5145165617 0.0001567
+5_ATSS-1_SABL    -0.1651 -0.35591656  0.0257165617 0.1186912
+3_DETR-2_Fovea    0.2900  0.09918344  0.4808165617 0.0007796
+4_Faster-2_Fovea  0.2976  0.10678344  0.4884165617 0.0005460
+5_ATSS-2_Fovea   -0.1912 -0.38201656 -0.0003834383 0.0493179
+4_Faster-3_DETR   0.0076 -0.18321656  0.1984165617 0.9999614
+5_ATSS-3_DETR    -0.4812 -0.67201656 -0.2903834383 0.0000001
+5_ATSS-4_Faster  -0.4888 -0.67961656 -0.2979834383 0.0000000
+
